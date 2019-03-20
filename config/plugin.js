@@ -6,4 +6,8 @@ module.exports = {
   // static: {
   //   enable: true,
   // }
+  raven: {
+    enable: true,
+    package: 'egg-raven',
+  }
 };

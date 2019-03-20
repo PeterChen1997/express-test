@@ -23,6 +23,10 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
 
+  config.raven = {
+    dsn: 'https://19ae670b49d24d1d930ad393d05238e2@sentry.io/1419358',
+  }
+
   return {
     ...config,
     ...userConfig,
